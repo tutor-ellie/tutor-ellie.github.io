@@ -2,14 +2,11 @@
   margin: 0;
   padding: 0;
 }
-
-
 :root {
     --text-color:rgb(102, 103, 105);
     --background-color:#f0f4f5;
     --accent-color:rgb(255, 0, 170);
 }
-
 body{
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
