@@ -170,6 +170,13 @@ a{
   .col-1 p{
     font-size: 14px;    
   }
+  .col-2 img{
+    width: 240px;
+  }
+
+  .color-box{
+    transform: translateX(0);
+  }
 }
 
 /*********About Section style set*************/
