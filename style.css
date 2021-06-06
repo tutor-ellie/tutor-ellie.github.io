@@ -206,12 +206,7 @@ a{
   box-sizing: border-box;
   transition: 0.5s;
 }
-.about-col h4{
-  text-align: center;
-  font-weight: 600;
-  margin: 10px 0;
-  color: var(--text-color);
-}
+
 .about-col img{
   width: 100%;
 }
