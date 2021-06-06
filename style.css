@@ -153,7 +153,7 @@ a{
     /*border-radius: 4px;*/
   }
   .navbar_toogleBtn {
-    display: block;
+    display: none;
   }
 
   .navbar_menu.active{
