@@ -1,65 +1,85 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">  
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Witch`s English</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="icon" href="cat_hand.ico">    
-    <link rel="stylesheet" href="style.css">
+  <title>Tutor Ellie`s Website</title>    
+    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/f3fa17afbf.js" crossorigin="anonymous"></script>
-    <script src="main.js" defer></script>
-    <meta name="description" content="EllieKim영어학습사이트"
-
+    <link rel="icon" href="cat_hand.ico">
 </head>
-<body>  
-  <section class="header">
-  <!-----------start nav menu---------------------->
-      <nav class="navbar">
-        <div class="navbar_logo">
-          <a class="Nav_logo" href="tutor-ellie.github.io"><img src="logo.png" width="100px" height="32px"   alt="logo"></a>
-        </div>      
-      </nav>
-   <!-----------end nav menu---------------------->
-   </section>
-   <!----------start main chara & about set---------------------->
-      <div class="row">
-        <div class="col-1">
-          <h2>I AM<br>HyunYoung KIM</h2>
-          <h3>English tutor</h3>
-          <p>TESOL certified English tutor, More 20+ yrs of experience.</p>
-        </div>
-        <div class="col-2">
-          <img src="main_witch.png" alt="witch">
-            <div class="color-box"></div>
-        </div>
+<body>
+  <!-- Navbar Section-->
+  <nav class="navbar">
+    <div class="navbar_container">
+      <a href="#home" id="navbar_logo"><img src="white_logo.png" width="100px" height="32px" alt="logo"></a>
+      <div class="navbar_toggle" id="mobile-menu">
+        <span class="bar"></span><span class="bar"></span>
+        <span class="bar"></span>        
       </div>
-   <!---------end main chara set-------------------------->   
-   <!------------ABOUT START--------------->
-   <section class="about">
-     <h2>Optimal Solution of English</h2>
-     <p> I’m Hyunyoung(Ellie)Kim and I am an English fairy tale guide/English Conversational Ability Test Grade 1/TESOL certified English teacher! <br>If you would like to practice speaking, learn grammar, new vocabulary, idioms, and gain self-confidence I can help you! </p>
+      <ul class="navbar_menu">
+        <li class="navbar_item">
+          <a href="#home" class="navbar_links" id="home-page">Home</a>
+        </li>
+        <li class="navbar_item">
+          <a href="#about" class="navbar_links" id="about-page">About</a>
+        </li>
+        <li class="navbar_item">
+          <a href="#course" class="navbar_links" id="course-page">Course</a>
+        </li>  
+        <li class="navbar_item">
+          <a href="#Game" class="navbar_links" id="game-page">Gamecenter</a>
+        </li>  
+        <li class="navbar_btn">
+          <a href="#sign-up" class="button" id="signup">Sign Up</a>
+        </li>       
+      </ul>
+    </div>
+  </nav>
 
-     <div class="cer">
-       <div class="about-col">
-         <img src="cer01.png">         
-       </div>
-       <div class="about-col">
-        <img src="cer02.png">        
+  <!---------------Main Section--------------->
+  <div class="hero" id="home">
+    <div class="hero_container">
+      <div class="col-1">
+        <h2>I AM<br>HyunYoung KIM</h2>
+        <h3>English tutor</h3>
+        <p>TESOL certified English tutor, More 20+ yrs of experience.</p>
+      </div>    
+      <div class="col-2">      
+        <img src="main_witch.png" alt="witch">        
       </div>
-      <div class="about-col">
-        <img src="cer03.png">        
-      </div>
+    </div>
+    
+  </div>
 
-     </div>
+  <!--------------About Section-------------->
+  <div class="main" id="about">
+    <div class="main_container">
+      <div class="main_content">
+        <h2>Optimal Solution of English</h2>
+        <p> I’m Hyunyoung(Ellie)Kim and I am an English fairy tale guide/English Conversational Ability Test Grade 1/TESOL certified English teacher! <br>If you would like to practice speaking, learn grammar, new vocabulary, idioms, and gain self-confidence I can help you! </p>
+      </div>        
+    </div>
 
-   </section>
-   <!------------------ABOUT END---------------> 
-  <!------------------Start Footer--------------->   
+    <ul class="cer">
+      <li class="about-col">
+        <img src="cer01.png" width="240px" height="340px">   
+      </li>
+      <li class="about-col">
+        <img src="cer02.png" width="240px" height="340px">   
+      </li>
+      <li class="about-col">
+        <img src="cer03.png" width="240px" height="340px">   
+      </li>
+    </ul>
+  </div>
+
+  <!---------------footer Section-------------------->
   <section class="footer">    
-    <a class="Nav_logo" href="tutor-ellie.github.io"><img src="logo.png" width="200px" height="64px" alt="logo"></a>
+    <a class="Nav_logo" href="tutor-ellie.github.io"><img src="white_logo.png" width="200px" height="64px" alt="logo"></a>
     <p>Made with by Dev_CrazyCat</p>
   </section>
+
+  <script src="app.js"></script>
 </body>
 </html>
