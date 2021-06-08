@@ -93,7 +93,7 @@
 
 
 
-@media  screen and (max-width: 1000px) {
+@media  screen and (max-width: 768px) {
   .navbar_container{
     display: flex;
     justify-content: space-between;
@@ -276,7 +276,7 @@
   
 }
 
-@media  screen and (max-width: 1100px){
+@media  screen and (max-width: 768px){
   .hero_container {
     display: grid;
     grid-template-columns: 1fr;
@@ -347,7 +347,7 @@
   height: 100%;
 }
 
-@media  screen and (max-width: 1100px){
+@media  screen and (max-width: 768px){
   .cer {
     flex-direction: column;
   } 
